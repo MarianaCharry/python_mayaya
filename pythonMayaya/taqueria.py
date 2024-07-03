@@ -11,13 +11,13 @@ print("Super Burrito: 8.50")
 print("Super Quesadilla: 9.50")
 print("Taco: 3.00")
 print("Tortilla Salad: 8.00")
+print("Si desea salir, escriba CONTROL D")
 
 
 producto=input("Ingrese el producto que desea: ")
 def prodcuto_elegido(producto):
-    if producto=='Baja Taco':
-        message='Elegiste baja taco'
+    if producto=="Baja Taco":
+        message="Elegiste baja taco"
     else:
-        message='Este producto no existe en nuestro menú'
+        message="Este producto no existe en nuestro menú"
         print(message)
-
